@@ -1,17 +1,17 @@
 import './App.css';
 import Footer from './component/Footer';
 import Header from './component/Header'
-import Main from './component/Main'
 import Nav from './component/Nav'
+import Specials from './component/Specials';
 function App() {
 
   return (
-    <>
-      <Header />
+    <div className='App font-sans'>
       <Nav />
-      <Main />
+      <Header />
+      <Specials />
       <Footer />
-    </>
+    </div>
   )
 }
 
